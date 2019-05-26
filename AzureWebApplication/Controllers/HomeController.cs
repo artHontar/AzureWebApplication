@@ -12,6 +12,7 @@ namespace AzureWebApplication.Controllers
     {
         public IActionResult Index()
         {
+            var str = "";
             return View();
         }
 
